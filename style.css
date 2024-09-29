@@ -1,0 +1,73 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.8cm;
+    color: #666;
+}
+
+.pimg1{   
+    background-image: url(https://img.lovepik.com/photo/48013/0650.jpg_wh860.jpg); 
+    min-height : 100%;
+}
+
+    .pimg2{   
+        background-image: url(https://img.freepik.com/free-photo/beautiful-natural-view-landscape_23-2150787996.jpg);
+    min-height: 400px;
+    }
+    
+    .pimg3{   
+        background-image: url(https://wallpaperaccess.com/full/112722.jpg); 
+        min-height : 400px;
+    
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+.pimg1, 
+.pimg2, 
+.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.text-bg{
+    background: rgb(61, 57, 57);
+    color: white;
+    padding: 20px;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.section-light{
+    background-color: rgb(244, 239, 239);
+    color: rgb(40, 38, 38);
+}
+
+.section-dark{
+    background-color: black;
+    color: white;
+}
